@@ -1,0 +1,9 @@
+<h1>Weather Forecast </h1>
+<h3>Problem Description</h3>
+
+<p>
+Forecasting of weather has become popular over the years owing to its challenges. In the domain of forecasting, time series data plays an important role in discovering the underlying relationship of the variable, whose observational data is transformed into knowledge for decision making. The implementation comprises data collection and cleansing, feature selection, clustering, building a learning model for prediction, and evaluation. Using the dataset, we will perform clustering to identify underlying patterns in the data. These patterns will help the task of forecasting by matching the most similar pattern to the time series that must be predicted.</p><br/><br/>
+
+<h3>Preliminary Plan</h3>
+<p>From the preliminary assessment of the dataset, we found that the weather data obtained has some missing values. We intend to handle this by data cleansing. There are many features available in the dataset. The ideal features are then selected from the large dataset using dimensionality reduction techniques such as PCA. This processed time series data is then clustered using a custom implementation of clustering algorithms such as K-means. This results in patterns in the data which can be used to predict future weather parameters. Finally, based on overall performance evaluated using Mean Absolute Percentage Error (MAPE) and time series cross validation, we will find the efficiency of the model. We will reiterate through the steps to improve the accuracy. Based on our planned milestones, we propose to have the forecasting model ready by the first week of April. In conclusion, this project deals with time series data analysis which encompasses clustering of the data points, finding similarities between the distributions and consequently forecasting of the series.</p><br/>
+
