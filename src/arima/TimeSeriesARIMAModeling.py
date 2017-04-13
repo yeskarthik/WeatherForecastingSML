@@ -1,10 +1,10 @@
 from pandas import read_csv
 from pandas import datetime
 from pandas import DataFrame
-from pandas import concat
 from matplotlib import pyplot
 from sklearn.metrics import mean_squared_error
 from matplotlib.pylab import rcParams
+from statsmodels.tsa.arima_model import ARMA
 
 rcParams['figure.figsize'] = 15, 6
 
@@ -18,8 +18,8 @@ series = read_csv(feature_SEA, header=0, parse_dates=[0], index_col=0, squeeze=T
 
 ts = series['12']
 
-values = DataFrame(ts.values)
-dataframe = concat([values.shift(1), values], axis=1)
+X = DataFrame(ts.values)
+"""dataframe = concat([values.shift(1), values], axis=1)
 dataframe.columns = ['t-1', 't+1']
 print(dataframe.head(5))
 
@@ -30,26 +30,28 @@ train_size = int(len(X) * 0.66)
 train, test = X[1:train_size], X[train_size:]
 train_X, train_y = train[:,0], train[:,1]
 test_X, test_y = test[:,0], test[:,1]
+"""
 
 
-# persistence model
-def model_persistence(x):
-    return x
-
-
-# walk-forward validation
+size = int(len(X) * 0.66)
+train, test = X[0:size], X[size:len(X)]
+history = [x for x in train]
 predictions = list()
-for x in test_X:
-    yhat = model_persistence(x)
+for t in range(len(test)):
+    model = ARMA(history, order=(10,0,0))
+    model_fit = model.fit(disp=0)
+    output = model_fit.forecast()
+    yhat = output[0]
     predictions.append(yhat)
-test_score = mean_squared_error(test_y, predictions)
-print('Test MSE: %.3f' % test_score)
+    obs = test[t]
+    history.append(obs)
+    print('predicted=%f, expected=%f' % (yhat, obs))
 
-# plot predictions and expected results
-pyplot.plot(train_y)
-pyplot.plot([None for i in train_y] + [x for x in test_y]) #red
-pyplot.plot([None for i in train_y] + [x for x in predictions]) #green
+error = mean_squared_error(test, predictions)
+print('Test MSE: %.3f' % error)
+# plot
+pyplot.plot(test)
+pyplot.plot(predictions, color='red')
 pyplot.show()
 
-
-# Reference : http://machinelearningmastery.com/persistence-time-series-forecasting-with-python/
+# Reference : http://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/
