@@ -14,19 +14,26 @@ def parser(dates):
 
 
 # read the data in
-feature_SEA = "/Users/ramanathan/Google Drive/Arizona State University/Spring 2017/Statistical Machine Learning/Project/code/WeatherForecastingSML/dataset/feature_SEA.csv"
+feature_SEA = "/Users/ramanathan/Google Drive/Arizona State University/Spring 2017/Statistical Machine Learning/Project/code/WeatherForecastingSML/dataset/feature_DAL.csv"
 series = read_csv(feature_SEA, header=0, parse_dates=[0], index_col=0, squeeze=True, date_parser=parser)
 
 ts = series['12']
 
 X = ts
+number_of_days = 365
+number_of_hours = 365 * 24
 
-train, test = X[1:len(X) - 7], X[len(X) - 7:]
+train, test = X[1:len(X) - number_of_hours], X[len(X) - number_of_hours:]
+
 # train autoregression
 model = AR(train)
 model_fit = model.fit()
+
 window = model_fit.k_ar
-coef = model_fit.params
+coefficient = model_fit.params
+print('Lag: %s' % model_fit.k_ar)
+print('Coefficients: %s' % model_fit.params)
+
 # walk forward over time steps in test
 history = train[len(train) - window:]
 history = [history[i] for i in range(len(history))]
@@ -34,15 +41,16 @@ predictions = list()
 for t in range(len(test)):
     length = len(history)
     lag = [history[i] for i in range(length - window, length)]
-    yhat = coef[0]
+    yhat = coefficient[0]
     for d in range(window):
-        yhat += coef[d + 1] * lag[window - d - 1]
+        yhat += coefficient[d + 1] * lag[window - d - 1]
     obs = test[t]
     predictions.append(yhat)
     history.append(obs)
     print('predicted=%f, expected=%f' % (yhat, obs))
 error = mean_squared_error(test, predictions)
 print('Test MSE: %.3f' % error)
+
 # plot
 pyplot.plot(test)
 pyplot.plot(predictions, color='red')
