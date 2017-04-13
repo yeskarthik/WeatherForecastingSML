@@ -1,0 +1,5 @@
+AR MODEL 
+
+DAL - 2.394
+SEA - 1.879
+CIN - 4.247
