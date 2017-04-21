@@ -1,0 +1,153 @@
+Using TensorFlow backend.
+(26304, 1)
+<bound method DataFrame.head of          12
+0      37.0
+1      36.0
+2      36.0
+3      36.5
+4      33.0
+5      32.0
+6      32.5
+7      38.0
+8      42.0
+9      44.5
+10     52.0
+11     58.0
+12     60.0
+13     65.0
+14     68.0
+15     68.5
+16     69.0
+17     66.0
+18     63.5
+19     60.0
+20     49.0
+21     45.0
+22     36.0
+23     33.0
+24     32.5
+25     30.0
+26     29.0
+27     28.5
+28     27.0
+29     26.0
+...     ...
+26274  50.0
+26275  50.0
+26276  50.0
+26277  50.0
+26278  50.0
+26279  51.0
+26280  51.0
+26281  51.0
+26282  52.0
+26283  51.5
+26284  50.5
+26285  50.0
+26286  50.0
+26287  51.0
+26288  52.0
+26289  54.0
+26290  61.0
+26291  65.0
+26292  66.5
+26293  71.0
+26294  73.0
+26295  73.0
+26296  70.0
+26297  65.0
+26298  62.5
+26299  58.0
+26300  56.0
+26301  55.0
+26302  48.0
+26303  48.0
+
+[26304 rows x 1 columns]>
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+Epoch 1/40
+133s - loss: 0.0038
+Epoch 2/40
+132s - loss: 6.0758e-04
+Epoch 3/40
+133s - loss: 6.0706e-04
+Epoch 4/40
+126s - loss: 6.0411e-04
+Epoch 5/40
+131s - loss: 6.0309e-04
+Epoch 6/40
+136s - loss: 6.0396e-04
+Epoch 7/40
+136s - loss: 6.0343e-04
+Epoch 8/40
+127s - loss: 6.0277e-04
+Epoch 9/40
+137s - loss: 6.0462e-04
+Epoch 10/40
+134s - loss: 6.0132e-04
+Epoch 11/40
+122s - loss: 6.0382e-04
+Epoch 12/40
+134s - loss: 5.9782e-04
+Epoch 13/40
+134s - loss: 6.0120e-04
+Epoch 14/40
+119s - loss: 6.0232e-04
+Epoch 15/40
+119s - loss: 6.0121e-04
+Epoch 16/40
+119s - loss: 6.0081e-04
+Epoch 17/40
+119s - loss: 6.0247e-04
+Epoch 18/40
+122s - loss: 6.0014e-04
+Epoch 19/40
+367s - loss: 5.9885e-04
+Epoch 20/40
+124s - loss: 5.9914e-04
+Epoch 21/40
+124s - loss: 6.0143e-04
+Epoch 22/40
+125s - loss: 6.0145e-04
+Epoch 23/40
+125s - loss: 5.9831e-04
+Epoch 24/40
+125s - loss: 6.0029e-04
+Epoch 25/40
+125s - loss: 5.9826e-04
+Epoch 26/40
+126s - loss: 5.9646e-04
+Epoch 27/40
+136s - loss: 6.0063e-04
+Epoch 28/40
+126s - loss: 5.9963e-04
+Epoch 29/40
+125s - loss: 5.9916e-04
+Epoch 30/40
+125s - loss: 5.9977e-04
+Epoch 31/40
+126s - loss: 5.9868e-04
+Epoch 32/40
+125s - loss: 5.9592e-04
+Epoch 33/40
+125s - loss: 5.9584e-04
+Epoch 34/40
+126s - loss: 5.9507e-04
+Epoch 35/40
+128s - loss: 5.9829e-04
+Epoch 36/40
+126s - loss: 5.9685e-04
+Epoch 37/40
+125s - loss: 5.9552e-04
+Epoch 38/40
+127s - loss: 5.9481e-04
+Epoch 39/40
+127s - loss: 5.9648e-04
+Epoch 40/40
+122s - loss: 5.9454e-04
+Train Score: 2.19 RMSE
+Test Score: 2.19 RMSE
