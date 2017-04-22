@@ -1,0 +1,153 @@
+Using TensorFlow backend.
+(26302, 1)
+<bound method DataFrame.head of               12
+0      41.666667
+1      40.000000
+2      40.000000
+3      40.000000
+4      38.666667
+5      39.500000
+6      40.000000
+7      41.000000
+8      41.000000
+9      42.500000
+10     42.333333
+11     42.000000
+12     42.000000
+13     43.000000
+14     45.000000
+15     45.000000
+16     45.000000
+17     45.000000
+18     44.000000
+19     44.000000
+20     44.000000
+21     44.500000
+22     44.000000
+23     44.000000
+24     44.000000
+25     44.500000
+26     43.000000
+27     43.000000
+28     43.750000
+29     43.333333
+...          ...
+26272  37.000000
+26273  37.000000
+26274  36.000000
+26275  37.000000
+26276  36.500000
+26277  35.000000
+26278  33.000000
+26279  32.000000
+26280  31.000000
+26281  29.000000
+26282  29.500000
+26283  31.000000
+26284  33.000000
+26285  31.500000
+26286  31.000000
+26287  32.000000
+26288  33.000000
+26289  33.000000
+26290  34.000000
+26291  33.500000
+26292  34.333333
+26293  36.000000
+26294  37.000000
+26295  37.000000
+26296  38.000000
+26297  38.000000
+26298  38.000000
+26299  37.000000
+26300  37.666667
+26301  37.333333
+
+[26302 rows x 1 columns]>
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+Epoch 1/40
+265s - loss: 0.0027
+Epoch 2/40
+133s - loss: 6.5485e-04
+Epoch 3/40
+547s - loss: 6.5770e-04
+Epoch 4/40
+130s - loss: 6.5483e-04
+Epoch 5/40
+134s - loss: 6.5035e-04
+Epoch 6/40
+135s - loss: 6.5157e-04
+Epoch 7/40
+133s - loss: 6.5263e-04
+Epoch 8/40
+134s - loss: 6.5267e-04
+Epoch 9/40
+109s - loss: 6.5212e-04
+Epoch 10/40
+112s - loss: 6.4939e-04
+Epoch 11/40
+112s - loss: 6.5085e-04
+Epoch 12/40
+107s - loss: 6.5059e-04
+Epoch 13/40
+111s - loss: 6.4613e-04
+Epoch 14/40
+115s - loss: 6.4836e-04
+Epoch 15/40
+109s - loss: 6.4783e-04
+Epoch 16/40
+111s - loss: 6.4716e-04
+Epoch 17/40
+122s - loss: 6.4861e-04
+Epoch 18/40
+125s - loss: 6.4565e-04
+Epoch 19/40
+115s - loss: 6.4708e-04
+Epoch 20/40
+117s - loss: 6.4795e-04
+Epoch 21/40
+110s - loss: 6.4827e-04
+Epoch 22/40
+108s - loss: 6.4480e-04
+Epoch 23/40
+114s - loss: 6.4235e-04
+Epoch 24/40
+114s - loss: 6.4588e-04
+Epoch 25/40
+114s - loss: 6.4636e-04
+Epoch 26/40
+115s - loss: 6.4357e-04
+Epoch 27/40
+119s - loss: 6.4510e-04
+Epoch 28/40
+120s - loss: 6.4344e-04
+Epoch 29/40
+116s - loss: 6.4480e-04
+Epoch 30/40
+145s - loss: 6.4383e-04
+Epoch 31/40
+117s - loss: 6.4148e-04
+Epoch 32/40
+114s - loss: 6.4688e-04
+Epoch 33/40
+129s - loss: 6.4542e-04
+Epoch 34/40
+131s - loss: 6.4239e-04
+Epoch 35/40
+132s - loss: 6.4128e-04
+Epoch 36/40
+138s - loss: 6.4169e-04
+Epoch 37/40
+133s - loss: 6.4011e-04
+Epoch 38/40
+117s - loss: 6.4335e-04
+Epoch 39/40
+114s - loss: 6.4123e-04
+Epoch 40/40
+115s - loss: 6.3943e-04
+Train Score: 1.86 RMSE
+Test Score: 1.83 RMSE
