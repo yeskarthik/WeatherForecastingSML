@@ -78,7 +78,7 @@ for input in datasets:
 
 	# In[70]:
 
-	get_ipython().magic('matplotlib inline')
+	#get_ipython().magic('matplotlib inline')
 	# Plot prediction and actual distribution
 	bins = np.linspace(10, 110, 200)
 
@@ -88,8 +88,9 @@ for input in datasets:
 	print ([predictions[i]-y_batch[i] for i in xrange(len(y_batch))])
 	plt.hist(predictions, bins, alpha=0.5, label='Prediction')
 	plt.hist(y_batch, bins, alpha=0.5, label='Actual')
-	plt.title('Histogram of Predicted and Actual Values')
-	plt.xlabel('Med Home Value in $1,000s')
+	title = 'Histogram of Predicted and Actual Temperature Values - ' + input
+	plt.title(title)
+	plt.xlabel('X values - Temperature')
 	plt.ylabel('Frequency')
 	plt.legend(loc='upper right')
 	plt.show()
