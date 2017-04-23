@@ -1,0 +1,307 @@
+/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7 "/Users/ramanathan/Google Drive/Arizona State University/Spring 2017/Statistical Machine Learning/Project/code/WeatherForecastingSML/src/LSTMFeatures.py"
+Using TensorFlow backend.
+(26302, 19)
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+Epoch 1/12
+129s - loss: 0.0023
+Epoch 2/12
+127s - loss: 9.5726e-05
+Epoch 3/12
+122s - loss: 9.5645e-05
+Epoch 4/12
+121s - loss: 9.5364e-05
+Epoch 5/12
+121s - loss: 9.4884e-05
+Epoch 6/12
+122s - loss: 9.3701e-05
+Epoch 7/12
+126s - loss: 9.3865e-05
+Epoch 8/12
+123s - loss: 9.3719e-05
+Epoch 9/12
+125s - loss: 9.3542e-05
+Epoch 10/12
+129s - loss: 9.3322e-05
+Epoch 11/12
+121s - loss: 9.3305e-05
+Epoch 12/12
+123s - loss: 9.3049e-05
+<type 'numpy.ndarray'>
+(8678, 1)
+(8678, 1)
+Epoch 1/12
+132s - loss: 0.0028
+Epoch 2/12
+133s - loss: 4.4483e-04
+Epoch 3/12
+129s - loss: 4.4384e-04
+Epoch 4/12
+127s - loss: 4.4556e-04
+Epoch 5/12
+124s - loss: 4.4480e-04
+Epoch 6/12
+129s - loss: 4.4373e-04
+Epoch 7/12
+124s - loss: 4.4176e-04
+Epoch 8/12
+127s - loss: 4.4230e-04
+Epoch 9/12
+128s - loss: 4.4504e-04
+Epoch 10/12
+132s - loss: 4.4324e-04
+Epoch 11/12
+132s - loss: 4.4313e-04
+Epoch 12/12
+127s - loss: 4.4492e-04
+<type 'numpy.ndarray'>
+(8678, 1)
+(8678, 2)
+Epoch 1/12
+137s - loss: 0.0086
+Epoch 2/12
+128s - loss: 0.0073
+Epoch 3/12
+130s - loss: 0.0073
+Epoch 4/12
+130s - loss: 0.0073
+Epoch 5/12
+128s - loss: 0.0073
+Epoch 6/12
+123s - loss: 0.0073
+Epoch 7/12
+140s - loss: 0.0073
+Epoch 8/12
+138s - loss: 0.0073
+Epoch 9/12
+130s - loss: 0.0073
+Epoch 10/12
+134s - loss: 0.0073
+Epoch 11/12
+116s - loss: 0.0073
+Epoch 12/12
+123s - loss: 0.0073
+<type 'numpy.ndarray'>
+(8678, 1)
+(8678, 3)
+Epoch 1/12
+115s - loss: 0.0547
+Epoch 2/12
+112s - loss: 0.0526
+Epoch 3/12
+111s - loss: 0.0526
+Epoch 4/12
+111s - loss: 0.0524
+Epoch 5/12
+112s - loss: 0.0523
+Epoch 6/12
+111s - loss: 0.0522
+Epoch 7/12
+385s - loss: 0.0521
+Epoch 8/12
+128s - loss: 0.0521
+Epoch 9/12
+114s - loss: 0.0521
+Epoch 10/12
+115s - loss: 0.0521
+Epoch 11/12
+115s - loss: 0.0519
+Epoch 12/12
+115s - loss: 0.0519
+<type 'numpy.ndarray'>
+(8678, 1)
+(8678, 4)
+Epoch 1/12
+794s - loss: 0.0107
+Epoch 2/12
+135s - loss: 0.0033
+Epoch 3/12
+115s - loss: 0.0033
+Epoch 4/12
+115s - loss: 0.0033
+Epoch 5/12
+115s - loss: 0.0033
+Epoch 6/12
+115s - loss: 0.0033
+Epoch 7/12
+118s - loss: 0.0033
+Epoch 8/12
+221s - loss: 0.0033
+Epoch 9/12
+116s - loss: 0.0033
+Epoch 10/12
+116s - loss: 0.0033
+Epoch 11/12
+116s - loss: 0.0033
+Epoch 12/12
+121s - loss: 0.0033
+<type 'numpy.ndarray'>
+(8678, 1)
+(8678, 5)
+Epoch 1/12
+130s - loss: 0.0013
+Epoch 2/12
+116s - loss: 1.3231e-04
+Epoch 3/12
+116s - loss: 1.3171e-04
+Epoch 4/12
+117s - loss: 1.3213e-04
+Epoch 5/12
+116s - loss: 1.3240e-04
+Epoch 6/12
+117s - loss: 1.3208e-04
+Epoch 7/12
+116s - loss: 1.3235e-04
+Epoch 8/12
+116s - loss: 1.3054e-04
+Epoch 9/12
+833s - loss: 1.3178e-04
+Epoch 10/12
+2230s - loss: 1.3161e-04
+Epoch 11/12
+121s - loss: 1.3042e-04
+Epoch 12/12
+126s - loss: 1.3164e-04
+<type 'numpy.ndarray'>
+(8678, 1)
+(8678, 6)
+Epoch 1/12
+123s - loss: 0.0409
+Epoch 2/12
+121s - loss: 0.0383
+Epoch 3/12
+124s - loss: 0.0381
+Epoch 4/12
+130s - loss: 0.0380
+Epoch 5/12
+129s - loss: 0.0380
+Epoch 6/12
+127s - loss: 0.0379
+Epoch 7/12
+123s - loss: 0.0380
+Epoch 8/12
+118s - loss: 0.0379
+Epoch 9/12
+120s - loss: 0.0379
+Epoch 10/12
+1905s - loss: 0.0379
+Epoch 11/12
+118s - loss: 0.0379
+Epoch 12/12
+116s - loss: 0.0379
+<type 'numpy.ndarray'>
+(8678, 1)
+(8678, 7)
+Epoch 1/12
+119s - loss: 0.0037
+Epoch 2/12
+1409s - loss: 1.0991e-04
+Epoch 3/12
+122s - loss: 1.0878e-04
+Epoch 4/12
+128s - loss: 1.1003e-04
+Epoch 5/12
+130s - loss: 1.0906e-04
+Epoch 6/12
+131s - loss: 1.0874e-04
+Epoch 7/12
+118s - loss: 1.0803e-04
+Epoch 8/12
+286s - loss: 1.0779e-04
+Epoch 9/12
+126s - loss: 1.0693e-04
+Epoch 10/12
+129s - loss: 1.0719e-04
+Epoch 11/12
+130s - loss: 1.0704e-04
+Epoch 12/12
+124s - loss: 1.0743e-04
+<type 'numpy.ndarray'>
+(8678, 1)
+(8678, 8)
+Epoch 1/12
+122s - loss: 8.0503e-04
+Epoch 2/12
+117s - loss: 5.8824e-04
+Epoch 3/12
+117s - loss: 5.8629e-04
+Epoch 4/12
+118s - loss: 5.8150e-04
+Epoch 5/12
+115s - loss: 5.8244e-04
+Epoch 6/12
+116s - loss: 5.8043e-04
+Epoch 7/12
+120s - loss: 5.7877e-04
+Epoch 8/12
+125s - loss: 5.7497e-04
+Epoch 9/12
+116s - loss: 5.7271e-04
+Epoch 10/12
+113s - loss: 5.6989e-04
+Epoch 11/12
+112s - loss: 5.6919e-04
+Epoch 12/12
+2643s - loss: 5.6744e-04
+<type 'numpy.ndarray'>
+(8678, 1)
+(8678, 9)
+Epoch 1/12
+123s - loss: 0.0049
+Epoch 2/12
+404s - loss: 3.9871e-04
+Epoch 3/12
+125s - loss: 3.9918e-04
+Epoch 4/12
+121s - loss: 3.9890e-04
+Epoch 5/12
+123s - loss: 3.9699e-04
+Epoch 6/12
+131s - loss: 3.9528e-04
+Epoch 7/12
+132s - loss: 3.9639e-04
+Epoch 8/12
+126s - loss: 3.9568e-04
+Epoch 9/12
+132s - loss: 3.9276e-04
+Epoch 10/12
+124s - loss: 3.9675e-04
+Epoch 11/12
+132s - loss: 3.9500e-04
+Epoch 12/12
+124s - loss: 3.9257e-04
+<type 'numpy.ndarray'>
+(8678, 1)
+(8678, 10)
+Epoch 1/12
+118s - loss: 0.0073
+Epoch 2/12
+120s - loss: 0.0063
+Epoch 3/12
+130s - loss: 0.0063
+Epoch 4/12
+126s - loss: 0.0063
+Epoch 5/12
+122s - loss: 0.0063
+Epoch 6/12
+131s - loss: 0.0063
+Epoch 7/12
+116s - loss: 0.0063
+Epoch 8/12
+122s - loss: 0.0063
+Epoch 9/12
+122s - loss: 0.0062
+Epoch 10/12
+124s - loss: 0.0062
+Epoch 11/12
+122s - loss: 0.0062
+Epoch 12/12
+131s - loss: 0.0062
+<type 'numpy.ndarray'>
+(8678, 1)
+(8678, 11)
+
+Process finished with exit code 0
