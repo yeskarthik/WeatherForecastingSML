@@ -53,7 +53,11 @@ print('Test MSE: %.3f' % error)
 
 # plot
 pyplot.plot(test)
-pyplot.plot(predictions, color='red')
+title = 'AR Model Predictions for Cincinnati'
+pyplot.title(title)
+pyplot.xlabel('Hourly Test Data Points (2016)')
+pyplot.ylabel('Temperature (F)')
+pyplot.plot(predictions, color='#ef9058')
 pyplot.show()
 
 # Reference : http://machinelearningmastery.com/autoregression-models-time-series-forecasting-python/
